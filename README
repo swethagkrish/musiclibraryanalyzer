@@ -1,0 +1,32 @@
+Acknowledgments
+Most of the information I used from the assignment came from our discussions
+and my notes from class. There were a few resources that I used in addition to
+that.
+https://phoenixnap.com/kb/grep-multiple-strings
+This link helped me with Grep and how to format it and more in-depth than
+in class - especially with multiple patterns.
+https://www.booleanworld.com/guide-linux-find-command/
+Used this for more information and examples on how to use find especially for
+-iname
+https://www.tecmint.com/sort-command-linux/
+Helped me learn how to sort with the cut command
+https://shapeshed.com/unix-cut/
+More information on cut.
+
+How to Run the Files
+The best way to run the scripts is by placing them inside the selected Music
+folder (so that it is inside Music/).
+
+Observations
+Most of the commands from the warmup were useful to run the detailed
+report which was probably why it was part of the assignment. I noticed to
+get the Multi-Disk albums it took about a few seconds longer than all the other
+commands. I wasn't able to figure out what that was, but the output printed
+what I needed to it.
+
+Test Data
+While my test data was not as detailed as I wanted it to be, I mostly covered
+a few cases just to reassure me of my work. Mainly had a few duplicate albums
+with LatinRemixes and Greatest Hits so that I can be assured that instruction
+does work. All the instructions worked as they should showing that the
+commands that I wrote could be transfered to another music file if needed

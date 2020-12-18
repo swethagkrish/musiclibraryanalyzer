@@ -1,0 +1,7 @@
+
+#!/usr/bin/env bash
+echo 'Total Tracks: '$(find . -type f | wc -l)
+echo 'Total Artists: '$(find . -type f| grep -v "various"| cut -d / -f 3 |sort| uniq | wc -l)
+echo -e 'Multi-Genre Artists: \n'"$(find . -type f -printf "%p\n" | cut -d / -f 2,3 | sort | uniq | cut -d / -f 2 | sort | uniq -d)"  
+echo -e 'Multi-Disk Albums: \n'"$(find . -type f -printf "%p\n" | grep -E 'disk1|Disk1'| cut -d / -f 4 | sort | uniq -d)"  
+
